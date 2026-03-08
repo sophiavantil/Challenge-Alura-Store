@@ -5,10 +5,10 @@
 * [Índice](#indice)
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Objetivos](#objetivos)
-* [Tecnologias Utilizazdas](#tecnologias-utilizadas)
 * [Visualizações Geradas](#visualizaç0es-geradas)
-* [Conclusão da Análise](#conclusao-da-analise)
+* [Tecnologias Utilizazdas](#tecnologias-utilizadas)
 * [Como executar o projeto](#como-executar-o-projeto)
+* [Conclusão da Análise](#conclusao-da-analise)
 
 ## Descrição do Projeto
 Este projeto foi desenvolvido para resolver um problema de negócio: o Senhor João, dono de uma rede com 4 lojas, precisa decidir qual unidade deve ser vendida para otimizar seus investimentos. 
@@ -21,6 +21,18 @@ Através da análise de dados de vendas (arquivos CSV), extraímos insights sobr
 * Avaliar a satisfação dos clientes através das notas de compra.
 * Mapear os produtos de maiores vendas e os itens com o estoque parado.
 
+## Visualizações Geradas
+O projeto conta com diversos tipos de gráficos para diferentes necessidades:
+
+<p align="">
+  <img src="faturamento_por_loja.png" alt="Faturamento" width="354">
+  <img src="frete.png" alt="Frete" width="350">
+  <img src="avaliacao_clientes.png" alt="Avaliação dos Clientes" width="297">
+</p>
+
+<img src="vendas_categoria.png" alt="Vendas por Categoria" width="800">
+<img src="vendas.png" alt="vendas" width="800">
+  
 ## Tecnologias Utilizadas
 * **Python**: Linguagem principal.
 * **Pandas**: Manipulação e tratamento dos dados.
@@ -31,23 +43,12 @@ Através da análise de dados de vendas (arquivos CSV), extraímos insights sobr
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
-## Visualizações Geradas
-O projeto conta com diversos tipos de gráficos para diferentes necessidades:
-
-<p align="center">
-  <img src="produtos_mais_menos_vendidos.png" alt="Produtos vendidos" width="400">
-  <img src="avaliacao_clientes.png" alt="Avaliação dos Clientes" width="400">
-  <img src="frete.png" alt="Frete" width="400">
-  <img src="vendas_categoria.png" alt="Vendas por Categoria" width="600">
-  <img src="faturamento_por_loja.png" alt="Faturamento" width="600">
-</p>
-
-## Conclusão da Análise
-Com base nos dados, a recomendação final foi a **venda da Loja 4**. 
-**Justificativa:** A unidade apresenta o menor faturamento da rede e baixa aceitação de mercado, mesmo possuindo o frete mais barato do grupo. Isso indica que o problema é a falta de demanda regional e não o custo operacional.
-
 ## Como executar o projeto
 1. Clone o repositório.
 2. Abra o arquivo `AluraStoreBrasil.ipynb` no Google Colab ou Jupyter Notebook.
 3. Certifique-se de ter as bibliotecas `pandas` e `matplotlib` instaladas.
 4. Execute as células para visualizar os gráficos e o relatório final.
+
+## Conclusão da Análise
+Com base nos dados, a recomendação final foi a **venda da Loja 4**. 
+**Justificativa:** A unidade apresenta o menor faturamento da rede e baixa aceitação de mercado, mesmo possuindo o frete mais barato do grupo. Isso indica que o problema é a falta de demanda regional e não o custo operacional.
