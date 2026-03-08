@@ -27,7 +27,10 @@ O projeto conta com diversos tipos de gráficos para diferentes necessidades:
 <p align="">
   <img src="faturamento_por_loja.png" alt="Faturamento" width="354">
   <img src="frete.png" alt="Frete" width="350">
-  <img src="avaliacao_clientes.png" alt="Avaliação dos Clientes" width="297">
+</p>
+
+<p align="Center">
+  <img src="avaliacao_clientes.png" alt="Avaliação dos Clientes" width="300">
 </p>
 
 <img src="vendas_categoria.png" alt="Vendas por Categoria" width="800">
@@ -52,3 +55,4 @@ O projeto conta com diversos tipos de gráficos para diferentes necessidades:
 ## Conclusão da Análise
 Com base nos dados, a recomendação final foi a **venda da Loja 4**. 
 **Justificativa:** A unidade apresenta o menor faturamento da rede e baixa aceitação de mercado, mesmo possuindo o frete mais barato do grupo. Isso indica que o problema é a falta de demanda regional e não o custo operacional.
+
